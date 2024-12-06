@@ -6,11 +6,10 @@
     <div class="mb-3">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="h3 d-inline align-middle">Data Kerjasama</h1>
+                <h1 class="h3 d-inline align-middle">Data Fasilitas</h1>
             </div>
             <div class="col-md-6">
                 <div class="text-end">
-                    <button id="refreshButton" class="btn btn-secondary me-2" title="Refresh"><i class="ti ti-refresh ti-sm"></i> Refresh Data</button>
                     <a href="<?= site_url('panel/fasilitas/tambah') ?>" class="btn btn-primary"><i class="ti ti-plus ti-sm"></i> Tambah</a>
                 </div>
             </div>
@@ -22,12 +21,10 @@
 
             <div class="card">
                 <div class="card-body">
-                    <button id="trash-btn-publish" class="btn btn-danger mb-3"><i class="ti ti-trash ti-sm"></i></button>
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th><input type="checkbox" id="select-all"></th>
                                     <th>No</th>
                                     <th>Foto</th>
                                     <th>Nama</th>
