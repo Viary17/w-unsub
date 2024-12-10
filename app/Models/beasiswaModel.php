@@ -11,7 +11,7 @@ class beasiswaModel extends Model
 
     public function get_data($nama_beasiswa, $deskripsi)
     {
-        return $this->db->table('tbl_beasiswa')
+        return $this->db->table($this->table)
             ->where(['nama_beasiswa' => $nama_beasiswa, 'deskripsi' => $deskripsi])
             ->get()
             ->getRowArray();
