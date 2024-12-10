@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class AgendaModel extends Model
+class agendaModel extends Model
 {
     protected $table = 'tbl_agenda'; 
     protected $allowedFields = ['nama_acara', 'deskripsi', 'tanggal', 'tempat', 'penyelenggara'];
